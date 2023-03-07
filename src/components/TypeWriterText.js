@@ -77,7 +77,7 @@ const TypeWriterText = () => {
   return (
     <>
         <Title>
-      Project Walter is community-driven meme project that
+      Project Walter is a community-driven meme project that
       <Typewriter
         options={{
           autoStart: true,
