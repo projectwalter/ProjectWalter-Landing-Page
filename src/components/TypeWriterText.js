@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Typewriter from "typewriter-effect";
 import Button from './Button';
+import OutlineButton from './OutlineButton';
 
 const Title = styled.h2`
   font-size: ${(props) => props.theme.fontxxl};
@@ -77,7 +78,7 @@ const TypeWriterText = () => {
   return (
     <>
         <Title>
-      Project Walter is a community-driven meme project that
+      Project Walter is community-driven meme project that
       <Typewriter
         options={{
           autoStart: true,
@@ -102,7 +103,11 @@ const TypeWriterText = () => {
     <SubTitle>Wooooooof! Woooooof!</SubTitle>
     <ButtonContainer>
     <Button text="Get Early Supporter Badge" link="https://discord.gg/5zDfHXX7Y5" />
+    <br></br>
+    <OutlineButton text="Check Our Docs" link="https://docs.projectwalter.org" />
     </ButtonContainer>
+
+    
     </>
   );
 };
